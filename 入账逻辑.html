@@ -1,0 +1,519 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>入账逻辑</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/入账逻辑/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/prototypePre.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/prototypePost.js"></script>
+    <script src="files/入账逻辑/data.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (矩形) -->
+      <div id="u4522" class="ax_default box_1">
+        <div id="u4522_div" class=""></div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u4523" class="ax_default button">
+        <div id="u4523_div" class=""></div>
+        <div id="u4523_text" class="text ">
+          <p><span>开 始</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u4524" class="ax_default button">
+        <div id="u4524_div" class=""></div>
+        <div id="u4524_text" class="text ">
+          <p><span>完成延迟分账</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u4525" class="ax_default _连接线">
+        <img id="u4525_seg0" class="img " src="images/入账逻辑/u4525_seg0.png" alt="u4525_seg0"/>
+        <img id="u4525_seg1" class="img " src="images/入账逻辑/u4525_seg1.png" alt="u4525_seg1"/>
+        <div id="u4525_text" class="text ">
+          <p><span>支付成功</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (菱形) -->
+      <div id="u4526" class="ax_default flow_shape">
+        <img id="u4526_img" class="img " src="images/入账逻辑/u4526.png"/>
+        <div id="u4526_text" class="text ">
+          <p><span>已延迟期限&gt;分账方风险预存期</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u4527" class="ax_default button">
+        <div id="u4527_div" class=""></div>
+        <div id="u4527_text" class="text ">
+          <p><span>入账至余额账户</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u4528" class="ax_default _连接线">
+        <img id="u4528_seg0" class="img " src="images/入账逻辑/u4528_seg0.png" alt="u4528_seg0"/>
+        <img id="u4528_seg1" class="img " src="images/入账逻辑/u4528_seg1.png" alt="u4528_seg1"/>
+        <div id="u4528_text" class="text ">
+          <p><span>是</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u4529" class="ax_default button">
+        <div id="u4529_div" class=""></div>
+        <div id="u4529_text" class="text ">
+          <p><span>入账至收款账户</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u4530" class="ax_default _连接线">
+        <img id="u4530_seg0" class="img " src="images/入账逻辑/u4530_seg0.png" alt="u4530_seg0"/>
+        <img id="u4530_seg1" class="img " src="images/入账逻辑/u4530_seg1.png" alt="u4530_seg1"/>
+        <img id="u4530_seg2" class="img " src="images/入账逻辑/u4528_seg1.png" alt="u4530_seg2"/>
+        <div id="u4530_text" class="text ">
+          <p><span>否</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u4531" class="ax_default button">
+        <div id="u4531_div" class=""></div>
+        <div id="u4531_text" class="text ">
+          <p><span>确认收货/默认收货</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u4532" class="ax_default _连接线">
+        <img id="u4532_seg0" class="img " src="images/入账逻辑/u4532_seg0.png" alt="u4532_seg0"/>
+        <img id="u4532_seg1" class="img " src="images/大体流程图/u4505_seg1.png" alt="u4532_seg1"/>
+        <div id="u4532_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u4533" class="ax_default button">
+        <div id="u4533_div" class=""></div>
+        <div id="u4533_text" class="text ">
+          <p><span>结束</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u4534" class="ax_default _连接线">
+        <img id="u4534_seg0" class="img " src="images/入账逻辑/u4534_seg0.png" alt="u4534_seg0"/>
+        <img id="u4534_seg1" class="img " src="images/入账逻辑/u4528_seg1.png" alt="u4534_seg1"/>
+        <div id="u4534_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u4535" class="ax_default _连接线">
+        <img id="u4535_seg0" class="img " src="images/入账逻辑/u4535_seg0.png" alt="u4535_seg0"/>
+        <img id="u4535_seg1" class="img " src="images/入账逻辑/u4535_seg1.png" alt="u4535_seg1"/>
+        <img id="u4535_seg2" class="img " src="images/入账逻辑/u4535_seg2.png" alt="u4535_seg2"/>
+        <div id="u4535_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u4536" class="ax_default button">
+        <div id="u4536_div" class=""></div>
+        <div id="u4536_text" class="text ">
+          <p><span>开 始</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u4537" class="ax_default _连接线">
+        <img id="u4537_seg0" class="img " src="images/入账逻辑/u4537_seg0.png" alt="u4537_seg0"/>
+        <img id="u4537_seg1" class="img " src="images/入账逻辑/u4528_seg1.png" alt="u4537_seg1"/>
+        <div id="u4537_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (菱形) -->
+      <div id="u4538" class="ax_default flow_shape">
+        <img id="u4538_img" class="img " src="images/算账逻辑/u4179.png"/>
+        <div id="u4538_text" class="text ">
+          <p><span>判断订单是否已分账</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u4539" class="ax_default button">
+        <div id="u4539_div" class=""></div>
+        <div id="u4539_text" class="text ">
+          <p><span>订单净额入账到在途资金户</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u4540" class="ax_default button">
+        <div id="u4540_div" class=""></div>
+        <div id="u4540_text" class="text ">
+          <p><span>计算该退款订单分账方应扣金额</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u4541" class="ax_default _连接线">
+        <img id="u4541_seg0" class="img " src="images/入账逻辑/u4541_seg0.png" alt="u4541_seg0"/>
+        <img id="u4541_seg1" class="img " src="images/入账逻辑/u4541_seg1.png" alt="u4541_seg1"/>
+        <div id="u4541_text" class="text ">
+          <p><span>是</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (菱形) -->
+      <div id="u4542" class="ax_default flow_shape">
+        <img id="u4542_img" class="img " src="images/算账逻辑/u4179.png"/>
+        <div id="u4542_text" class="text ">
+          <p><span>判断该分账方是否已担保</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u4543" class="ax_default _连接线">
+        <img id="u4543_seg0" class="img " src="images/入账逻辑/u4543_seg0.png" alt="u4543_seg0"/>
+        <img id="u4543_seg1" class="img " src="images/入账逻辑/u4543_seg1.png" alt="u4543_seg1"/>
+        <div id="u4543_text" class="text ">
+          <p><span>其余分账方</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u4544" class="ax_default button">
+        <div id="u4544_div" class=""></div>
+        <div id="u4544_text" class="text ">
+          <p><span>冻结主账户资金</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u4545" class="ax_default _连接线">
+        <img id="u4545_seg0" class="img " src="images/入账逻辑/u4545_seg0.png" alt="u4545_seg0"/>
+        <img id="u4545_seg1" class="img " src="images/入账逻辑/u4528_seg1.png" alt="u4545_seg1"/>
+        <div id="u4545_text" class="text ">
+          <p><span>是，已担保</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u4546" class="ax_default button">
+        <div id="u4546_div" class=""></div>
+        <div id="u4546_text" class="text ">
+          <p><span>冻结担保资金户资金</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u4547" class="ax_default _连接线">
+        <img id="u4547_seg0" class="img " src="images/入账逻辑/u4547_seg0.png" alt="u4547_seg0"/>
+        <img id="u4547_seg1" class="img " src="images/入账逻辑/u4547_seg1.png" alt="u4547_seg1"/>
+        <img id="u4547_seg2" class="img " src="images/入账逻辑/u4528_seg1.png" alt="u4547_seg2"/>
+        <div id="u4547_text" class="text ">
+          <p><span>否，未担保</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (菱形) -->
+      <div id="u4548" class="ax_default flow_shape">
+        <img id="u4548_img" class="img " src="images/算账逻辑/u4179.png"/>
+        <div id="u4548_text" class="text ">
+          <p><span>应扣金额&gt;（可用金额-冻结金额）</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u4549" class="ax_default _连接线">
+        <img id="u4549_seg0" class="img " src="images/入账逻辑/u4549_seg0.png" alt="u4549_seg0"/>
+        <img id="u4549_seg1" class="img " src="images/入账逻辑/u4528_seg1.png" alt="u4549_seg1"/>
+        <div id="u4549_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (菱形) -->
+      <div id="u4550" class="ax_default flow_shape">
+        <img id="u4550_img" class="img " src="images/算账逻辑/u4179.png"/>
+        <div id="u4550_text" class="text ">
+          <p><span>应扣金额&gt;担保资金户</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u4551" class="ax_default _连接线">
+        <img id="u4551_seg0" class="img " src="images/入账逻辑/u4551_seg0.png" alt="u4551_seg0"/>
+        <img id="u4551_seg1" class="img " src="images/入账逻辑/u4528_seg1.png" alt="u4551_seg1"/>
+        <div id="u4551_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u4552" class="ax_default button">
+        <div id="u4552_div" class=""></div>
+        <div id="u4552_text" class="text ">
+          <p><span>报错，提示账户可冻资金不足</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u4553" class="ax_default _连接线">
+        <img id="u4553_seg0" class="img " src="images/入账逻辑/u4553_seg0.png" alt="u4553_seg0"/>
+        <img id="u4553_seg1" class="img " src="images/入账逻辑/u4553_seg1.png" alt="u4553_seg1"/>
+        <img id="u4553_seg2" class="img " src="images/入账逻辑/u4528_seg1.png" alt="u4553_seg2"/>
+        <div id="u4553_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u4554" class="ax_default _连接线">
+        <img id="u4554_seg0" class="img " src="images/入账逻辑/u4554_seg0.png" alt="u4554_seg0"/>
+        <img id="u4554_seg1" class="img " src="images/入账逻辑/u4554_seg1.png" alt="u4554_seg1"/>
+        <img id="u4554_seg2" class="img " src="images/入账逻辑/u4528_seg1.png" alt="u4554_seg2"/>
+        <div id="u4554_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u4555" class="ax_default button">
+        <div id="u4555_div" class=""></div>
+        <div id="u4555_text" class="text ">
+          <p><span>担保资金户冻结成功</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u4556" class="ax_default _连接线">
+        <img id="u4556_seg0" class="img " src="images/入账逻辑/u4556_seg0.png" alt="u4556_seg0"/>
+        <img id="u4556_seg1" class="img " src="images/入账逻辑/u4528_seg1.png" alt="u4556_seg1"/>
+        <div id="u4556_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u4557" class="ax_default button">
+        <div id="u4557_div" class=""></div>
+        <div id="u4557_text" class="text ">
+          <p><span>主账户资金冻结成功</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u4558" class="ax_default _连接线">
+        <img id="u4558_seg0" class="img " src="images/入账逻辑/u4558_seg0.png" alt="u4558_seg0"/>
+        <img id="u4558_seg1" class="img " src="images/入账逻辑/u4528_seg1.png" alt="u4558_seg1"/>
+        <div id="u4558_text" class="text ">
+          <p><span>否</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u4559" class="ax_default label">
+        <div id="u4559_div" class=""></div>
+        <div id="u4559_text" class="text ">
+          <p><span>是</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u4560" class="ax_default label">
+        <div id="u4560_div" class=""></div>
+        <div id="u4560_text" class="text ">
+          <p><span>是</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u4561" class="ax_default button">
+        <div id="u4561_div" class=""></div>
+        <div id="u4561_text" class="text ">
+          <p><span>计算该退款订单分账方应扣金额</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u4562" class="ax_default _连接线">
+        <img id="u4562_seg0" class="img " src="images/入账逻辑/u4562_seg0.png" alt="u4562_seg0"/>
+        <img id="u4562_seg1" class="img " src="images/入账逻辑/u4528_seg1.png" alt="u4562_seg1"/>
+        <div id="u4562_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u4563" class="ax_default _连接线">
+        <img id="u4563_seg0" class="img " src="images/入账逻辑/u4563_seg0.png" alt="u4563_seg0"/>
+        <img id="u4563_seg1" class="img " src="images/大体流程图/u4505_seg1.png" alt="u4563_seg1"/>
+        <div id="u4563_text" class="text ">
+          <p><span>否</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (菱形) -->
+      <div id="u4564" class="ax_default flow_shape">
+        <img id="u4564_img" class="img " src="images/算账逻辑/u4179.png"/>
+        <div id="u4564_text" class="text ">
+          <p><span>应扣金额&gt;在途资金户？</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u4565" class="ax_default _连接线">
+        <img id="u4565_seg0" class="img " src="images/入账逻辑/u4565_seg0.png" alt="u4565_seg0"/>
+        <img id="u4565_seg1" class="img " src="images/入账逻辑/u4528_seg1.png" alt="u4565_seg1"/>
+        <div id="u4565_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u4566" class="ax_default button">
+        <div id="u4566_div" class=""></div>
+        <div id="u4566_text" class="text ">
+          <p><span>报错，提示账户可冻资金不足</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u4567" class="ax_default _连接线">
+        <img id="u4567_seg0" class="img " src="images/入账逻辑/u4567_seg0.png" alt="u4567_seg0"/>
+        <img id="u4567_seg1" class="img " src="images/入账逻辑/u4567_seg1.png" alt="u4567_seg1"/>
+        <img id="u4567_seg2" class="img " src="images/入账逻辑/u4528_seg1.png" alt="u4567_seg2"/>
+        <div id="u4567_text" class="text ">
+          <p><span>是</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u4568" class="ax_default button">
+        <div id="u4568_div" class=""></div>
+        <div id="u4568_text" class="text ">
+          <p><span>主账户资金冻结成功</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u4569" class="ax_default _连接线">
+        <img id="u4569_seg0" class="img " src="images/入账逻辑/u4569_seg0.png" alt="u4569_seg0"/>
+        <img id="u4569_seg1" class="img " src="images/入账逻辑/u4528_seg1.png" alt="u4569_seg1"/>
+        <div id="u4569_text" class="text ">
+          <p><span>否</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u4570" class="ax_default button">
+        <div id="u4570_div" class=""></div>
+        <div id="u4570_text" class="text ">
+          <p><span>结束</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u4571" class="ax_default _连接线">
+        <img id="u4571_seg0" class="img " src="images/入账逻辑/u4571_seg0.png" alt="u4571_seg0"/>
+        <img id="u4571_seg1" class="img " src="images/入账逻辑/u4571_seg1.png" alt="u4571_seg1"/>
+        <img id="u4571_seg2" class="img " src="images/入账逻辑/u4535_seg2.png" alt="u4571_seg2"/>
+        <div id="u4571_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u4572" class="ax_default _连接线">
+        <img id="u4572_seg0" class="img " src="images/入账逻辑/u4537_seg0.png" alt="u4572_seg0"/>
+        <img id="u4572_seg1" class="img " src="images/入账逻辑/u4528_seg1.png" alt="u4572_seg1"/>
+        <div id="u4572_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u4573" class="ax_default _连接线">
+        <img id="u4573_seg0" class="img " src="images/入账逻辑/u4573_seg0.png" alt="u4573_seg0"/>
+        <img id="u4573_seg1" class="img " src="images/入账逻辑/u4573_seg1.png" alt="u4573_seg1"/>
+        <img id="u4573_seg2" class="img " src="images/大体流程图/u4505_seg1.png" alt="u4573_seg2"/>
+        <div id="u4573_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u4574" class="ax_default button">
+        <div id="u4574_div" class=""></div>
+        <div id="u4574_text" class="text ">
+          <p><span>退款资金冻结判断</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u4575" class="ax_default button">
+        <div id="u4575_div" class=""></div>
+        <div id="u4575_text" class="text ">
+          <p><span>冻结主账户资金</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u4576" class="ax_default _连接线">
+        <img id="u4576_seg0" class="img " src="images/入账逻辑/u4576_seg0.png" alt="u4576_seg0"/>
+        <img id="u4576_seg1" class="img " src="images/入账逻辑/u4576_seg1.png" alt="u4576_seg1"/>
+        <img id="u4576_seg2" class="img " src="images/入账逻辑/u4528_seg1.png" alt="u4576_seg2"/>
+        <div id="u4576_text" class="text ">
+          <p><span>平台分账方</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u4577" class="ax_default _连接线">
+        <img id="u4577_seg0" class="img " src="images/入账逻辑/u4577_seg0.png" alt="u4577_seg0"/>
+        <img id="u4577_seg1" class="img " src="images/入账逻辑/u4577_seg1.png" alt="u4577_seg1"/>
+        <img id="u4577_seg2" class="img " src="images/入账逻辑/u4535_seg2.png" alt="u4577_seg2"/>
+        <div id="u4577_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u4578" class="ax_default _连接线">
+        <img id="u4578_seg0" class="img " src="images/入账逻辑/u4545_seg0.png" alt="u4578_seg0"/>
+        <img id="u4578_seg1" class="img " src="images/入账逻辑/u4528_seg1.png" alt="u4578_seg1"/>
+        <div id="u4578_text" class="text ">
+          <p><span>进行入账</span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
